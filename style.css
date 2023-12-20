@@ -1,0 +1,152 @@
+@font-face {
+    font-family: 'Futura Light';
+    src: url('./fonts/Futura/Futura\ Light\ font.ttf');
+    font-weight: medium;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Futura Bold';
+    src: url('./fonts/Futura/Futura\ Bold\ font.ttf');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.titre {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-left {
+    width: 150px;
+    padding-right: 10px;
+}
+
+.logo-right {
+    width: 143px;
+    padding-left: 10px;
+}
+
+.background {
+    width: 1850px;
+}
+
+
+h1 {
+    text-align: center;
+    font-family: "Futura Bold";
+}
+
+h2 {
+    text-decoration: black underline;
+    font-family: "Futura Light";
+}
+
+.rbimg {
+    width: 100%;
+}
+
+.texte-mis-en-forme-exemple {
+    font-size: 30px;
+    color: yellow;
+    background-color: #436770;
+}
+
+.titre-page-exemple {
+    text-align: center;
+    border: 10px dotted red;
+}
+
+.petite-image-exemple {
+    width: 50px;
+}
+
+.classement {
+    background-color: white;
+}
+
+table {
+    margin: 0 auto;
+}
+
+.pilotes {
+    color: rgb(10, 0, 150);
+}
+
+.points {
+    color: red;
+}
+
+td {
+    border: 1px solid black;
+    color: black;
+    padding: 5px;
+    text-align: center;
+}
+
+.imgEcurie {
+    height: 25px;
+}
+
+.nom {
+    text-align: center;
+    font-size: 50px;
+    font-family: "Futura Bold";
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+
+.verstappen1 {
+    background-color: rgb(150, 0, 0);
+    padding-left: 20px;
+}
+
+.verstappen2 {
+    background-color: rgb(10, 0, 150);
+    padding-right: 20px;
+    color: white;
+}
+
+.perez1 {
+    background-color: rgb(10, 0, 150);
+    padding-left: 20px;
+    color: white;
+}
+
+.perez2 {
+    background-color: rgb(255, 97, 195);
+    padding-right: 20px;
+}
+
+.verstappen1, .verstappen2, .perez1, .perez2 {
+    text-align: center;
+    font-size: 30px;
+    font-family: "Corporate A Light";
+}
+
+.contenu {
+    display: flex;
+    vertical-align: baseline;
+}
+
+.imagesPilotes {
+    height: 500px;
+}
+
+.acceuil {
+    font-size: 30px;
+    font-family: "Futura Bold";
+    color: white;
+    text-align: center;
+    background-color: black;
+    padding: 10px;
+}
